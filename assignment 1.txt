@@ -1,0 +1,28 @@
+DATE 28TH OCT
+
+DIFFERENCE BETWEEN LENGTH AND LENGTH()
+LENGTH VARIABLE =
+     1)  The length variable is applicable to an array but not for string objects.
+       FOR EXAMPLE-
+       int[] array = new int[4];
+       System.out.println("The size of the array" + array.length);
+       OUTPUT :The size of the array is 4.
+       2) The length variable in an array returns the length of an array i.e. a number of elements stored in an array.
+
+LENGTH METHOD =
+       1)The length() method is applicable for string objects but not for arrays.
+        FOR EXAMPLE-
+        String str = "AKSHAY";
+        System.out.println("The size of the String is " + str.length());
+        OUTPUT :The size of the String is 13
+        2)The length() returns the length of a string object i.e. the number of characters stored in an object.
+--------------------------------------------------------------------------------------------------------------------------------------------
+MULTIPLE INHERITANCE=
+A SUBCLASS CONSIST OF MORE THEN ONE SUPERCLASS IT IS CALLED AS MULTIPLE INHERITANCE.
+NOTE
+1) THE TEAM WHO CREATED JAVA INSTED OF GIVING SOLUTION TO THE DIAMOND PROBLEM THEY SIMPLY RESTRICTED MULTIPLE INHERITANCE
+2)MULTIPLE INHERITANCE IS NOT SUPPORTED IN JAVA WITH THE HELP OF CLASSES.
+
+HYBRID INHERITANCE=
+IT IS COMBINATION OF HEIRARCHICAL AND MULTIPLE INHERITANCE.
+WE CAN NOT ACHIEVE HYBRID INHERITANCE.
